@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+#calculator {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#display {
+  height: 60px;
+  font-size: 30px;
+  text-align: right;
+  padding: 10px;
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin: 5px;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+button:hover {
+  background-color: #e6e6e6;
+}
+
+button:active {
+  background-color: #d9d9d9;
+}
+
+button:focus {
+  outline: none;
+}
